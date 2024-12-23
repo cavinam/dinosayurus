@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.card-product {
+  background-color: #fff; /* Warna putih */
+  border: 1px solid #ddd;
+  padding: 20px;
+}
