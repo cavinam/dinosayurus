@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function AboutUs() {
   return (
@@ -9,9 +10,12 @@ export default function AboutUs() {
       <h1 className="text-center text-5xl font-bold py-12">DinoBout</h1>
 
       <div className="hero-content flex flex-row items-center justify-center">
-        <img
+        <Image
           src="/logo/dinoo.jpg"
-          className="w-[400px] h-[450px] rounded-lg shadow-2xl mx-5 my-10"
+          className="rounded-lg shadow-2xl mx-5 my-10"
+          width={400}
+          height={450}
+          alt="dino"
         />
         <div className="mx-5">
           <div>
