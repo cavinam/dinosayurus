@@ -6,7 +6,7 @@ const TeamCard = ({ team }: { team: ITeam }) => {
   console.log(team);
   return (
     <div className="flex flex-col items-center bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <div className="relative h-80 w-[200] overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+      <div className="relative h-80 w-[200] overflow-hidden rounded-lg shadow transition hover:shadow-lg my-2">
         <Image src={team.image} alt="team.name" width={80} height={80} />
       </div>
       <div className="p-5">
